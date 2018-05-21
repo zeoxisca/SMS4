@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>sm4_zeox</class>
+ <widget class="QMainWindow" name="sm4_zeox">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>262</width>
+    <height>383</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>SMS4_ZEOX</string>
+  </property>
+  <property name="toolButtonStyle">
+   <enum>Qt::ToolButtonIconOnly</enum>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="normBtn">
+    <property name="geometry">
+     <rect>
+      <x>8</x>
+      <y>137</y>
+      <width>246</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑 Light</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>NORMAL</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="fileBtn">
+    <property name="geometry">
+     <rect>
+      <x>8</x>
+      <y>207</y>
+      <width>246</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑 Light</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>FILE</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="authBtn">
+    <property name="geometry">
+     <rect>
+      <x>8</x>
+      <y>277</y>
+      <width>246</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑 Light</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>EXIT</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="line_1">
+    <property name="geometry">
+     <rect>
+      <x>8</x>
+      <y>197</y>
+      <width>246</width>
+      <height>1</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="line_2">
+    <property name="geometry">
+     <rect>
+      <x>8</x>
+      <y>267</y>
+      <width>246</width>
+      <height>1</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="line_3">
+    <property name="geometry">
+     <rect>
+      <x>8</x>
+      <y>336</y>
+      <width>246</width>
+      <height>1</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="top_label">
+    <property name="geometry">
+     <rect>
+      <x>8</x>
+      <y>8</y>
+      <width>246</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑 Light</family>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="low_label">
+    <property name="geometry">
+     <rect>
+      <x>162</x>
+      <y>340</y>
+      <width>91</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Copy@Right</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="top_label_2">
+    <property name="geometry">
+     <rect>
+      <x>8</x>
+      <y>26</y>
+      <width>246</width>
+      <height>96</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑 Light</family>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>  SMS4_ZEOX</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
